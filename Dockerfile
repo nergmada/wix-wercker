@@ -6,6 +6,7 @@ MAINTAINER Adam Green <nergmada@gmail.com>
 
 #RUN mkdir /source
 USER root
+RUN apt-get update
 RUN apt-get install -y curl
 WORKDIR /source
 CMD ["bash"]
