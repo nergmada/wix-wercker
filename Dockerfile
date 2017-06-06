@@ -6,6 +6,6 @@ MAINTAINER Adam Green <nergmada@gmail.com>
 
 #RUN mkdir /source
 USER root
-RUN apt-get install curl
+RUN apt-get install -y curl
 WORKDIR /source
 CMD ["bash"]
