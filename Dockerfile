@@ -5,5 +5,6 @@ MAINTAINER Adam Green <nergmada@gmail.com>
 # RUN apt-get install zip
 
 #RUN mkdir /source
+USER root
 WORKDIR /source
 CMD ["bash"]
